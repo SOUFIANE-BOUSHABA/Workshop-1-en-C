@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     
     printf("%.2lf Fahrenheit = %.2lf Celsius\n", F, C);
    
-    if (celsius < 0) {
+    if (C < 0) {
         printf(" Very cold\n");
     } else if (C >= 0 && C < 10) {
         printf(" cold\n");
