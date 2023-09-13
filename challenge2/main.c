@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
     double C;
     double F;
     
-    printf("Entrez la température en Fahrenheit : ");
+    printf("give me  the temperature in Fahrenheit: ");
     scanf("%lf", &F);
     
     // Convertir Fahrenheit en Celsius
@@ -18,13 +18,13 @@ int main(int argc, char *argv[]) {
     printf("%.2lf Fahrenheit = %.2lf Celsius\n", F, C);
    
     if (celsius < 0) {
-        printf("Sensation : Tres froid\n");
+        printf("Sensation : Very cold\n");
     } else if (C >= 0 && C < 10) {
-        printf("Sensation : Froid\n");
+        printf("Sensation : cold\n");
     } else if (C >= 10 && C < 25) {
-        printf("Sensation : Chaud\n");
+        printf("Sensation : hot\n");
     } else {
-        printf("Sensation : Tres chaud\n");
+        printf("Sensation : Very hot\n");
     }
 
     return 0;
