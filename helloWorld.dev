@@ -1,6 +1,6 @@
 [Project]
-FileName=helloworld.c.dev
-Name=helloworld.c
+FileName=helloWorld.dev
+Name=helloWorld
 Type=1
 Ver=2
 ObjFiles=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000010000
+CompilerSettings=0000000000000000000000000
 
 [VersionInfo]
 Major=1
