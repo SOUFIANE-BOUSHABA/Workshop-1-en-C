@@ -18,13 +18,13 @@ int main(int argc, char *argv[]) {
     printf("%.2lf Fahrenheit = %.2lf Celsius\n", F, C);
    
     if (celsius < 0) {
-        printf("Sensation : Very cold\n");
+        printf(" Very cold\n");
     } else if (C >= 0 && C < 10) {
-        printf("Sensation : cold\n");
+        printf(" cold\n");
     } else if (C >= 10 && C < 25) {
-        printf("Sensation : hot\n");
+        printf(" hot\n");
     } else {
-        printf("Sensation : Very hot\n");
+        printf("Very hot\n");
     }
 
     return 0;
