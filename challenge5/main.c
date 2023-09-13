@@ -4,6 +4,7 @@
 
 
 int main(int argc, char *argv[]) {
+	
 	float x1; 
 	float x2; 
 	float y1; 

@@ -11,7 +11,8 @@ int main(int argc, char *argv[]) {
     int b;
     int c;
     int d;
-    int sum , moy;
+    int sum ;
+	float moy;
     
     printf("give me  number one : ");
     scanf("%d", &a);
@@ -29,6 +30,6 @@ int main(int argc, char *argv[]) {
     moy=sum/4;
     
     printf(" the sum is : %d\n", sum);
-    printf(" the average is : %d\n", moy);
+    printf(" the average is : %lf\n", moy);
 }
 

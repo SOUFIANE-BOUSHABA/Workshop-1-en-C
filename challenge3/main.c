@@ -9,7 +9,7 @@
 int main(int argc, char *argv[]) {
     int a;
     int b;
-    int sum , less , multiple , division ;
+    int sum , less , multiple , division ,rest ;
     
     printf("give me  number one : ");
     scanf("%d", &a);
@@ -20,11 +20,18 @@ int main(int argc, char *argv[]) {
     sum = a+b;
     less = a-b;
     multiple = a*b;
-    division = a/b;
+    if (b>0){
+    	 division = a/b;
+	}
+	else printf("eror plaise enter number > 0");
+	
+   
+    rest =a%b ;
    
     printf(" the sum is : %d\n", sum);
     printf(" the less is : %d\n", less);
     printf(" the multiple is : %d\n", multiple);
     printf(" the division is : %d\n", division);
+    printf("a %% b = %d\n", rest);
 }
 
