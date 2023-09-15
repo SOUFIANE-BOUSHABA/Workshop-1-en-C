@@ -1,0 +1,33 @@
+Calculatrice étendue en C :
+
+Objectif : Créez une calculatrice en C qui peut effectuer plusieurs opérations mathématiques en utilisant des fonctions distinctes pour chaque opération (addition, soustraction, multiplication, division, carré, racine carrée, etc.).
+
+Voici les étapes pour accomplir ce défi :
+
+Interface utilisateur : Créez un menu permettant à l'utilisateur de choisir l'opération qu'il souhaite effectuer. Par exemple :
+
+
+
+
+
+
+
+Saisie des nombres : Demandez à l'utilisateur d'entrer les nombres sur lesquels il souhaite effectuer l'opération.
+
+
+
+Fonctions distinctes : Écrivez des fonctions distinctes pour chaque opération. Par exemple, une fonction addition, une fonction soustraction, etc. Chaque fonction prendra en entrée les nombres saisis et renverra le résultat de l'opération.
+
+
+
+Boucle principale : Utilisez une boucle pour permettre à l'utilisateur de continuer à effectuer des opérations jusqu'à ce qu'il choisisse de quitter.
+
+
+
+Gestion des erreurs : Assurez-vous que votre programme gère les erreurs telles que la division par zéro.
+
+
+
+Affichage des résultats : Affichez le résultat de chaque opération après son exécution.
+
+Ce défi vous permettra de mettre en pratique vos compétences en fonctions en C et de créer une calculatrice fonctionnelle avec une interface utilisateur simple.
