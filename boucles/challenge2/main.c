@@ -10,11 +10,11 @@ int main() {
 
 	for (i=0;i<nb;i++){
 	
-		for (j=0;j<=(nb-i);j++){
+		for (j=nb;j>=0;j--){
 			printf (" ");
 		}
 	
-		for (k=0;k<=(2*i);k++){
+		for (k=0;k<=2*i;k++){
 			printf ("*");
 		}
 	

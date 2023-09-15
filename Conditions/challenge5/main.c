@@ -4,16 +4,16 @@ int main() {
     int annee, choix;
     int mois, jours, heures, minutes, secondes;
 
-    printf("Veuillez entrer une année : ");
+    printf("Veuillez entrer une annee : ");
     scanf("%d", &annee);
 
-    printf("\nMenu  :\n");
-    printf("1. En Mois\n");
-    printf("2. En Jours\n");
-    printf("3. En Heures\n");
-    printf("4. En Minutes\n");
-    printf("5. En Secondes\n");
-    printf("Choisissez (1-5) : ");
+   
+    printf("1 =  Mois\n");
+    printf("2 =  Jours\n");
+    printf("3 =  Heures\n");
+    printf("4 =  Minutes\n");
+    printf("5 =  Secondes\n");
+    printf("Choisissez un number 1-5 : ");
     scanf("%d", &choix);
 
     switch (choix) {
@@ -38,7 +38,7 @@ int main() {
             printf("%d annes equivalent a %d secondes.\n", annee, secondes);
             break;
         default:
-            printf("Choix invalide. Veuillez sélectionner une option valide (1-5).\n");
+            printf("Choix invalide\n");
     }
 
     return 0;
