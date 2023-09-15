@@ -3,7 +3,7 @@
 int main() {
     int nombre, inverse1, inverse2, inverse3;
 
-    printf(" give me the number between 100 and  999  : ");
+    printf(" give me  number between 100 and  999  : ");
     scanf("%d", &nombre);
 
 
