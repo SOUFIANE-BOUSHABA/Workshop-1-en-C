@@ -119,6 +119,16 @@ int main() {
                 scanf("%d", &b);
             } else if (choix == 7) {
                 printf("Au revoir !\n");
+                printf("\n");
+                printf("  ****   ****  \n");
+			    printf("******* *******\n");
+			    printf("***************\n");
+			    printf(" ************* \n");
+			    printf("  ***********  \n");
+			    printf("    *******    \n");
+			    printf("      ***      \n");
+			    printf("       *       \n");
+			             
                 break;
             }
         } else {
@@ -151,35 +161,54 @@ int main() {
                 printf("    *****    \n");
 			    printf("  *       *  \n");
 			    printf(" *  O   O  * \n");
-			    printf("*    \\_/    *\n");
+			    printf("*    \\_/   *\n");
 			    printf(" *         * \n");
 			    printf("  *       *  \n");
 			    printf("    *****    \n");
 			    printf("\n");
 			    printf("\n");
-			    printf("  ****   ****  \n");
-			    printf("******* *******\n");
-			    printf("***************\n");
-			    printf(" ************* \n");
-			    printf("  ***********  \n");
-			    printf("    *******    \n");
-			    printf("      ***      \n");
-			    printf("       *       \n");
-			                
+			     
                 break;
 
             case 2:
                 minimum = min(t, n);
                 printf(" min est : %d\n", minimum);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/   *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
 
             case 3:
                 moy = moyenne(t, n);
                 printf("moyenne est : %.2lf\n", moy);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/   *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
             case 4:  showMenu1 = 1;  break;
             default:
                     printf("Choix invalide dans le deuxieme menu.\n");
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  ?   ?  * \n");
+			    printf("*    ___    *\n");
+			    printf(" *  /  \\ * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
             }
         }
 
@@ -188,32 +217,95 @@ int main() {
             case 1:
                 addition = add(a, b);
                 printf("Addition : %d\n", addition);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/    *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
             case 2:
                 subtraction = less(a, b);
                 printf("Subtraction : %d\n", subtraction);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/    *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
             case 3:
                 multiplication = mult(a, b);
                 printf("Multiplication : %d\n", multiplication);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/    *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
             case 4:
                 divisionResult = division(a, b);
                 printf("Division : %d\n", divisionResult);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/    *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
             case 5:
                 square = carre(a);
                 printf("Carre : %d\n", square);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/    *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
             case 6:
                 sqrtResult = racinCarree(a);
                 printf("Racine Carree : %d\n", sqrtResult);
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/    *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
                 break;
             case 8:
                 showMenu1 = 0; 
                 break;
             default:
                 printf("Choix invalide dans le premier menu.\n");
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  ?   ?  * \n");
+			    printf("*    ___    *\n");
+			    printf(" *  /   \\  * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
         }
     } while (choix != 7);
 
