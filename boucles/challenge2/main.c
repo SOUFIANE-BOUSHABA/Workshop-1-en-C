@@ -2,22 +2,23 @@
 #include <stdlib.h>
 
 int main() {
-	int i, j, k, nb ;
-	
-	printf ("nombres de lignes :\n");
-	scanf ("%d", &nb);
+    int nb , i, j , k;
+    
+    printf("Enter the number of lines: ");
+    scanf("%d", &nb);
 
+    for ( i = 0; i < nb; i++) {
+        for ( j = 0; j < nb - i - 1; j++) {
+            printf(" ");
+        }
 
-	for (i=0;i<nb;i++){
-	
-		for (j=nb;j>=0;j--){
-			printf (" ");
-		}
-	
-		for (k=0;k<=2*i;k++){
-			printf ("*");
-		}
-	
-		printf ("\n");
-	}
+        for ( k = 0; k < 2 * i + 1; k++) {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
 }
+

@@ -88,7 +88,7 @@ int racinCarree(int a) {
 int main() {
     int a, n ,i, b, addition, subtraction, multiplication, divisionResult, square, sqrtResult;
     int choix, choixMenu2;
-
+    int t[n];
     int showMenu1 = 1; 
      double moy;
     int maximum , minimum; 
@@ -97,15 +97,17 @@ int main() {
 
     do {
         if (showMenu1) {
-            printf("1 = Addition\n");
-            printf("2 = Subtraction\n");
-            printf("3 = Multiplication\n");
-            printf("4 = Division\n");
-            printf("5 = Carre\n");
-            printf("6 = Racine Carree\n");
-            printf("7 = Quitter\n");
-            printf("8 = Afficher le deuxième menu\n");
-            printf("Choisissez un nombre 1-8 : ");
+        	printf("******************************************************************\n");
+            printf("1 = Addition                                                     *\n");
+            printf("2 = Subtraction                                                  *\n");
+            printf("3 = Multiplication                                               *\n");
+            printf("4 = Division                                                     *\n");
+            printf("5 = Carre                                                        *\n");
+            printf("6 = Racine Carree                                                *\n");
+            printf("7 = Quitter                                                      *\n");
+            printf("8 = MenuTableaux                                                 *\n");
+            printf("Choisissez un nombre 1-8 :                                       *\n");
+            printf("******************************************************************\n");
             scanf("%d", &choix);
 
             if (choix > 0 && choix < 7) {
@@ -120,27 +122,50 @@ int main() {
                 break;
             }
         } else {
-            printf("1 = max\n");
-	        printf("2 = min\n");
-	        printf("3 = moyenne\n");
-	        printf("4 = retour\n");
-	        printf("Choisissez un nombre 1-4 : ");
+        	printf("******************************************************************\n");
+            printf("1 = max                                                          *\n");
+	        printf("2 = min                                                          *\n");
+	        printf("3 = moyenne                                                      *\n");
+	        printf("4 = retour                                                       *\n");
+	        printf("Choisissez un nombre 1-4 :                                       *\n");
+	       	printf("******************************************************************\n");
             scanf("%d", &choixMenu2);
-
-                printf("Donnez le nombre des elements du tableau:\n");
+       if(choixMenu2 > 0 && choixMenu2 < 4) {
+       	printf("Donnez le nombre des elements du tableau:\n");
 		        scanf("%d", &n);
-		        int t[n];
+		       
 		
 		        for (i = 0; i < n; i++) {
 		            printf("Donnez l'element %d:\n", i + 1);
 		            scanf("%d", &t[i]);
 		        }
+	   }
+                
         
         
             switch (choixMenu2) {
                 case 1:
                 maximum = max(t, n);
                 printf(" max est : %d\n", maximum);
+                
+                printf("    *****    \n");
+			    printf("  *       *  \n");
+			    printf(" *  O   O  * \n");
+			    printf("*    \\_/    *\n");
+			    printf(" *         * \n");
+			    printf("  *       *  \n");
+			    printf("    *****    \n");
+			    printf("\n");
+			    printf("\n");
+			    printf("  ****   ****  \n");
+			    printf("******* *******\n");
+			    printf("***************\n");
+			    printf(" ************* \n");
+			    printf("  ***********  \n");
+			    printf("    *******    \n");
+			    printf("      ***      \n");
+			    printf("       *       \n");
+			                
                 break;
 
             case 2:
@@ -152,6 +177,7 @@ int main() {
                 moy = moyenne(t, n);
                 printf("moyenne est : %.2lf\n", moy);
                 break;
+            case 4:  showMenu1 = 1;  break;
             default:
                     printf("Choix invalide dans le deuxieme menu.\n");
             }
