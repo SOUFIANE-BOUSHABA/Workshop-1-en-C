@@ -1,3 +1,6 @@
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -6,7 +9,7 @@ int main(){
 	
 int i, j;
 int c, l ;
-
+int tab[10];
 
 printf("donner les colone de matric : ");
 scanf("%d", &c);
@@ -21,20 +24,27 @@ for (i = 0; i < c; i++) {
   }
 }
 
-
-
 //afficher
 for (i = 0; i < c; i++) {
+	 printf("\n");
   for (j = 0; j < l; j++) {
-    printf("%d \n", matrix[i][j]);
+  	
+    printf("%d", matrix[i][j]);
   }
+  printf("\t \t \n");
 }
-//sum
-int sum =0;
+
+
 for (i = 0; i < c; i++) {
+
   for (j = 0; j < l; j++) {
-    sum+=matrix[i][j];
+   tab[i*c+j] = matrix[i][j];
   }
 }
- printf("la somme est :%d \n", sum);
+
+
+for (i=0; i<l*c; i++)
+printf("%d ", tab[i]);
+
+
 }
