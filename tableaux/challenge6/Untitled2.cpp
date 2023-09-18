@@ -7,7 +7,7 @@ int main() {
     int ok, pos; int poss, possC;
     int i; char c ; 
     printf("Donnez une chaine de caracteres:\n");
-    scanf("%[^\n]", s);
+    gets(s);
     int len = strlen(s);
      for(i=0;i<len;i++)
      {
@@ -41,7 +41,7 @@ int main() {
     
     for (i = 0; i < len; i++) {
         if (s[i] == c) {
-            printf("Lettre trouvee a la position %d\n", i+1);
+            printf("Lettre trouvee a la position %d\n", i);
             found = 1; 
         }
     }
