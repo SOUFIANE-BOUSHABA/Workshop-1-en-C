@@ -121,30 +121,3 @@ Challenge 4 :
 
 Challenge 5:
 Écrire un programme C qui lit un entier et l'affiche inversée. On choisira de ne pas afficher chiffre par chiffre mais de construire l'entier inversé puis l'afficher. Ex: si l'entrée est 12345 on doit afficher l'entier 54321.
-
-Activity
-Workshop
-Date & Time
-Aujourd'hui à 10:00
-Duration
-2 jours
-Statut
- 1 day 15:27:14
-Work Rule
-individuel
-Coworkers
-Yourself
-Resources
-None
-App Settings
-Dark Mode
-Adjust the appearance to reduce glare and give your eyes a break.
- 
-Header Fixed
- 
-Sidebar Fixed
- 
-Sidebar Grid
- 
-Gradient Enabled
- 
